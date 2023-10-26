@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+*, 
+*::after, 
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-color: #EAC926
+}
+
+
+:root{
+    --amarillo-meli: #EAC926;;
+    --azul-meli:#03264C;;
+    --gris-claro-meli:#ebebeb;;
+    --gris-oscuro-meli: #666;
+    --celeste-meli:#1259c3;
+    --blanco-meli: #fff;
+    --verde-descuento-meli: #00a650;
+  }
+.titulares{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+#compra-cuotas{
+    text-align: center;
+}
+
+.article-container img {
+    width: 300px;
+    font-size: 16px;
+}
+
+.lista-footer {
+    list-style: none;
+    text-align: center;
+    color: #666;
+}
+.item-footer {
+    margin: 50px 50px;
+}
+
+footer i{
+    color: #1259c3;
+    font-size: 30px;
+}
