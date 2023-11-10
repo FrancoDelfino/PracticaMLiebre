@@ -22,11 +22,6 @@ header {
     flex-wrap: wrap;
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 body {
     background-color: var(--gris-claro-meli);
 }
@@ -63,6 +58,7 @@ main {
 }
 .navbar-login{
     margin-right: 5%;
+    color: black;
 }
 .navbar-product{
     margin-left: 5%;
@@ -120,6 +116,8 @@ main {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+
 }
 
 .article-container img {
@@ -206,6 +204,9 @@ footer i {
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
+    }
+    .navbar-content i{
+        margin-left: 5px;
     }
     .navbar-product{
         display: flex;
