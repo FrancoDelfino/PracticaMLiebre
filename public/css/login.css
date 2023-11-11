@@ -1,0 +1,61 @@
+:root {
+    --amarillo-meli: #EAC926;
+    ;
+    --azul-meli: #03264C;
+    ;
+    --gris-claro-meli: #ebebeb;
+    ;
+    --gris-oscuro-meli: #666;
+    --celeste-meli: #1259c3;
+    --blanco-meli: #fff;
+    --verde-descuento-meli: #00a650;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+input{
+    border-width: 0px 0px 1px 0px;
+    height: 5vh;
+}
+input:focus{
+    outline: none;
+    border-color: #1259c3;
+    font-size: 2rem;
+}
+.registro{
+    margin-top: 40px;
+    background-color: var(--blanco-meli);
+    box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.29);
+    -moz-box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.29);
+    width: 70%;
+    max-width: 500px;
+    border-radius: 1%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.login div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 10px;   
+}
+
+button{
+    width:100%;
+    margin: 10% 30% 0% 30%;
+}
+button:hover{
+    background-color: #0022AA;
+}

@@ -8,7 +8,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/login.css">
     <title>Document</title>
 </head>
 
@@ -31,19 +31,16 @@
             <ul class="navbar-content">
                 <li class="navbar-login"><a href="/register">Creá tu cuenta <i class="fa-regular fa-address-card"></i></a></li>
                 <li class="navbar-login"><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></a></i></li>
-                <li class="navbar-login">Mis compras <i class="fa-solid fa-basket-shopping"></i></li>            </ul>
+                <li class="navbar-login">Mis compras <i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
         </nav>
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
     </header>
     <main>
-        <form class="registro" action="registro" method="post">
-            <section class="datos-nombres">
-                <div class="nombre-apellido">
-                    <label for="nombre-apellido">Nombre y Apellido</label>
-                    <input type="text" name="nombre-apellido" id="nombre-apellido">
-                </div>
+        <form class="registro" action="/" method="get">
+            <section class="login">
                 <div class="nombre-usuario">
                     <label for="nombre-usuario">Nombre de usuario</label>
                     <input type="text" name="nombre-usuario" id="nombre-usuario">
@@ -52,52 +49,9 @@
                     <label for="password">Escriba su contraseña</label>
                     <input type="password" name="password" id="password">
                 </div>
-                <div class="confirm-password">
-                    <label for="confirm-password">Confirme su contraseña</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
-                </div>
-                <div class="e-mail">
-                    <label for="e-mail">E-mail</label>
-                    <input type="email" name="e-mail" id="e-mail">
-                </div>
-                <div class="domicilio">
-                    <label for="domicilio">Escribe tu domicilio</label>
-                    <input type="text" name="domicilio" id="domicilio">
-                    <div>
-                        <div class="fecha">
-                            <label for="fecha">Fecha de nacimiento</label>
 
-                            <input type="date" name="fecha" id="fecha">
-                        </div>
-            </section>
+                <button type="submit">Enviar</button>
 
-            <section class="perfil-usuario">
-                <label class="perfil-titular">Perfil del usuario</label>
-                <div class="comprador">
-                    <input type="radio" name="perfil-usuario" value="Comprador" id="perfil-comprador"><label
-                        for="perfil-comprador">Comprador</label>
-                </div>
-                <div class="vendedor">
-                    <input type="radio" name="perfil-usuario" value="Vendedor" id="perfil-vendedor"><label
-                        for="perfil-vendedor">Vendedor</label>
-                </div>
-            </section>
-            <div class="interes">
-                <label class="categorias-interes" for="interes">Categorias de tu interés</label>
-                <label><input type="checkbox" name="interes" value="Electro"> Electro</label>
-                <label><input type="checkbox" name="interes" value="Moda"> Moda</label>
-                <label><input type="checkbox" name="interes" value="Hogar"> Hogar</label>
-                <label><input type="checkbox" name="interes" value="Juguetería"> Juguetería</label>
-                <label><input type="checkbox" name="interes" value="Vida sana"> Vida sana</label>
-            </div>
-            <div class="foto-perfil">
-                <label for="foto-perfil">Seleccioná tu foto de Perfil</label>
-                <input type="file" name="foto-perfil" accept=".jpg" multiple>
-            </div>
-            <div class="button">
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
-            </div>
 
 
         </form>

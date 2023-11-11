@@ -15,6 +15,14 @@ main{
     display:flex;
     justify-content: center;
 }
+input{
+    border-width: 0px 0px 1px 0px;
+}
+
+label{
+    color: var(--gris-oscuro-meli);
+
+}
 .registro{
     margin-top: 40px;
     background-color: var(--blanco-meli);
@@ -22,12 +30,18 @@ main{
     -webkit-box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.29);
     -moz-box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.29);
     width: 70%;
-    max-width: 400px;
+    max-width: 500px;
     border-radius: 1%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
+    font-size: 1.5rem;
+}
+input:focus{
+    outline: none;
+    border-color: #1259c3;
+    font-size: 2rem;
 }
 
 .datos-nombres{
@@ -39,6 +53,7 @@ main{
 .datos-nombres div{
     margin-bottom: 10px;
 } 
+
 .nombre-apellido{
     display: flex;
     flex-direction: column;
@@ -68,7 +83,7 @@ main{
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
-    max-width: 120px;
+    max-width: 200px;
 
 }
 .domicilio{
@@ -82,8 +97,9 @@ main{
 }
 .perfil-titular{
     width: 100%;
-
     margin-bottom: 5px;
+    font-weight:900;
+    color: black;
 }
 .comprador{
     width: 50%;
@@ -100,6 +116,8 @@ main{
 }
 .categorias-interes{
     margin-bottom: 5px;
+    color: black;
+    font-weight: 900;
 }
 .interes label input{
     margin-left: 15px;
@@ -107,7 +125,12 @@ main{
 .foto-perfil{
     margin-top: 10px;
 }
+.foto-perfil label{
+    font-weight: 900;
+    color: black;
+}
 .button {
+    width: 100%;
     display:flex;
     flex-wrap: wrap;
     margin-top: 15px;
