@@ -49,7 +49,12 @@ main {
     box-sizing: border-box;
     padding: 3%;
 }
-
+a{
+    all:unset;
+}
+a:hover{
+    cursor: pointer;
+}
 .searchbar {
     width: 45%;
     border: none;
