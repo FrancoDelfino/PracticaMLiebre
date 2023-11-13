@@ -168,10 +168,9 @@ a:hover{
     transition: rotate 2s;
 }
 
-.article-description:hover{
-    .titulo-producto{
-        display: flex;
-    }}
+.article-container:hover .titulo-producto{
+            display: flex;
+    }
 .article-container:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
