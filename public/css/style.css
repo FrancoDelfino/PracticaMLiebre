@@ -46,7 +46,6 @@ main {
 
 .logo-mercado-liebre {
     width: 50%;
-    box-sizing: border-box;
     padding: 3%;
 }
 a{
@@ -55,12 +54,13 @@ a{
 a:hover{
     cursor: pointer;
 }
-.searchbar {
-    width: 45%;
+header form{
+    width: 30%;
     border: none;
     margin: 5% 0%;
     padding: 0% 3%;
 }
+
 .navbar-login{
     margin-right: 5%;
     color: black;
@@ -73,7 +73,10 @@ a:hover{
     color: var(--gris-oscuro-meli);
     width: 100%;
 }
-
+form .searchbar{
+    width: 100%;
+    border: none;
+}
 
 #compra-cuotas {
     text-align: center;
