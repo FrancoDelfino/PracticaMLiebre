@@ -42,43 +42,43 @@
             <section class="datos-nombres">
                 <div class="nombre-apellido">
                     <label for="nombre-apellido">Nombre y Apellido</label>
-                    <input type="text" name="nombre-apellido" id="nombre-apellido">
+                    <input required type="text" name="nombre-apellido" id="nombre-apellido">
                 </div>
                 <div class="nombre-usuario">
-                    <label for="nombre-usuario">Nombre de usuario</label>
+                    <label required for="nombre-usuario">Nombre de usuario</label>
                     <input type="text" name="nombre-usuario" id="nombre-usuario">
                 </div>
                 <div class="password">
-                    <label for="password">Escriba su contraseña</label>
+                    <label required for="password">Escriba su contraseña</label>
                     <input type="password" name="password" id="password">
                 </div>
                 <div class="confirm-password">
-                    <label for="confirm-password">Confirme su contraseña</label>
+                    <label required for="confirm-password">Confirme su contraseña</label>
                     <input type="password" name="confirm-password" id="confirm-password">
                 </div>
                 <div class="e-mail">
                     <label for="e-mail">E-mail</label>
-                    <input type="email" name="e-mail" id="e-mail">
+                    <input required type="email" name="e-mail" id="e-mail">
                 </div>
                 <div class="domicilio">
                     <label for="domicilio">Escribe tu domicilio</label>
-                    <input type="text" name="domicilio" id="domicilio">
+                    <input required type="text" name="domicilio" id="domicilio">
                     <div>
                         <div class="fecha">
                             <label for="fecha">Fecha de nacimiento</label>
 
-                            <input type="date" name="fecha" id="fecha">
+                            <input required type="date" name="fecha" id="fecha">
                         </div>
             </section>
 
             <section class="perfil-usuario">
                 <label class="perfil-titular">Perfil del usuario</label>
                 <div class="comprador">
-                    <input type="radio" name="perfil-usuario" value="Comprador" id="perfil-comprador"><label
+                    <input required type="radio" name="perfil-usuario" value="Comprador" id="perfil-comprador"><label
                         for="perfil-comprador">Comprador</label>
                 </div>
                 <div class="vendedor">
-                    <input type="radio" name="perfil-usuario" value="Vendedor" id="perfil-vendedor"><label
+                    <input required type="radio" name="perfil-usuario" value="Vendedor" id="perfil-vendedor"><label
                         for="perfil-vendedor">Vendedor</label>
                 </div>
             </section>
