@@ -43,16 +43,18 @@ main {
     --blanco-meli: #fff;
     --verde-descuento-meli: #00a650;
 }
-
-.logo-mercado-liebre {
-    width: 50%;
-    padding: 3%;
-}
 a{
     all:unset;
 }
 a:hover{
     cursor: pointer;
+}
+.anchor-ml{
+    display: flex;
+}
+#logo-mercado-liebre{
+    width: 100%;
+
 }
 header form{
     width: 30%;
@@ -76,6 +78,10 @@ header form{
 form .searchbar{
     width: 100%;
     border: none;
+    
+}
+form ::placeholder{
+    margin-left: 26%;
 }
 
 #compra-cuotas {
